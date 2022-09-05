@@ -1,0 +1,17 @@
+@charset "UFT-8";
+
+body {
+    background-image: linear-gradient(210deg, #ED4542,#F75040, #FF6D45, #ED7A4C, #E0604A);
+}
+
+.bakiTxt {
+    background-color: #ffffff;
+    margin: auto;
+    width: 800px;
+    padding: 1em;
+}
+
+.bakiImg {
+    position: relative;
+    left: 36em;
+}

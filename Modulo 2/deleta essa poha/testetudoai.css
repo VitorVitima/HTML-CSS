@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(45deg, #ce3232, #b92f2f );
+}
+
+div#center {
+    font-family: arial, sans-serif;
+    text-align: center;
+    background-color:#ebebeb;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+ul {
+    display: inline-block;
+}
+
+div#center > ul > li > a > div {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://assets.turbologo.com/blog/pt/2019/10/19133658/youtube-logo-illustration.jpg);
+}
+

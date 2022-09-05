@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'little';
+    src: url('fonts/LittleBoy.otf') format('opentype');
+    font-weight: normal;
+}
+
+body {
+   background-image: linear-gradient(90deg, white, #e6e6e6);
+}
+
+.txt {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px #ced1e9;
+    font: normal normal 1em 'little' ;
+}
+
+.img {
+   
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 1em;
+}

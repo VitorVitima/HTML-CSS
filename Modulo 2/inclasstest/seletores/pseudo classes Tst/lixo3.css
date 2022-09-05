@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div {
+    display: inline-block;
+}
+
+div > div#id1, #id2, #id3 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+div > div#id1:hover , #id2:hover, #id3:hover {
+    background-color: cadetblue;
+}

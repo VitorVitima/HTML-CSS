@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F2CBC2;
+}
+
+.possitivo {
+    color: #A62121;
+}
+
+.negativo {
+    color: #400101;
+    text-align: right;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+h1 {
+    background-color: #BF6363 ;
+    color: white;
+    text-align: center;
+}
+
+
+

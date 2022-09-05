@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+}
+
+main {
+    width: 400px;
+    height: 400px;
+    border: 10px solid black;
+    margin: 0px auto ;
+    position: relative;
+
+    top: 100px;
+
+    border-radius: 50px 10px;
+
+    box-shadow: inset 10px 10px 2px #0000007a;
+    box-shadow: inset  -10px -10px 2px #0000007a;
+}
+
+div#square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    position: absolute;
+    left: 150px;
+    top: 10px;
+
+    border-radius: 0px ;
+}
+div#r1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    position: absolute;
+    left: 150px;
+    top: 150px;
+
+    border-radius: 10px;
+}
+div#r2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+
+    border-radius: 50%;
+}
+
+div#r2:hover {
+    background-color: blueviolet;
+    box-shadow: 10px 10px 2px #00000062;
+}

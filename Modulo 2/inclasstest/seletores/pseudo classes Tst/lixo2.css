@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.princ > h1 {
+    text-align: center;
+}
+
+.princ > .back {
+    background-color: white;
+    width: 400px;
+    height: 240px;
+    margin: auto;
+}  
+
+.princ > .back > .im2 {
+    width: 400px;
+    height: 240px;
+}
+
+.princ > .back > .vi {
+    background-color: white;
+    width: 400px;
+    height: 240px;
+    position: absolute;
+    top: 82px;
+    display: none;
+}
+
+.princ > .back:hover > .vi {
+    display: block;
+}
+
+

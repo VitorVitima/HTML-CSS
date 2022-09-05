@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid' ;
+    src: url(fontes/idroid.otf) format('opentype');
+    
+}
+body {
+    margin: 0px;
+    background-color: #EBE5C5;
+}
+header {
+    background-image: linear-gradient( 180deg, #3CDC83, #1A5C38 );
+    padding-top: 50px;
+    color: #F6F9F8;
+    box-shadow: 0px 5px 10px #0000005e;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header > div#h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 100;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 2px 2px #00000075;
+}
+header > p {
+    text-align: center;
+    font-size: 19px;
+    text-shadow: 1px 2px 2px #00000075;
+}
+header > nav > div {
+    display: inline-block;
+    width: auto ;
+    height: auto ;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+header > nav > div > a {
+    color: #F6F9F8;
+    text-decoration: none;
+    margin: auto;
+}
+header > nav > div:hover {
+    background-color: #3cdc84da;
+    border-radius: 5px;
+}
+header > nav > div:hover > a {
+    color:#1A5C38;
+}
+
+.boxshadow {
+   box-shadow:  0px 7px 20px 1px #0000005e;
+}
+
+main > #center  {
+    margin: auto;
+    
+    min-width: 945px;
+    max-width: 280px;
+
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    position: relative;
+}
+
+main > #center2{
+    margin: auto;
+    
+    min-width: 945px;
+    max-width: 280px;
+
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+}
+
+main > div#center > section > h1, h2 {
+    margin-top: 0px;
+    font-family: 'idroid';
+    color: #1A5C38;
+}
+
+main > div#center > section > h2 {
+    background-image: linear-gradient(90deg, #84E1AD, #FFFFFF);
+}
+
+.links {
+    color: black;
+    text-decoration: none;
+    background-color: #84E1AD;
+    padding: 2px;
+    font-weight: bolder;
+}
+
+.links:hover {
+    text-decoration: underline;
+
+}
+
+main > div#center > section > p {
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > div#center > section > div#img3 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+main > div#center > section > div#img2 {
+    width: 100%;
+    height: auto ;
+    margin: auto;
+    position: relative;
+}
+
+main > div#center > section > div#img1 {
+    width: 100% ;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+main > div#center > section > div#img1 > img {
+    width: 60%;
+    height: 60%;
+}
+
+main > div#video {
+    margin: auto;
+
+    max-width: 945px;
+    min-width: 280px;
+
+    height: auto;
+    background-color: #1A5C38;
+    padding: 30px;
+    position: relative;
+}
+
+main > div#video > div {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    
+}
+
+main > div#center2 > h3 {
+    background-color: #1A5C38;
+    color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 4px 11px 10px #00000038;
+    
+}
+main > div#center2 > section > p {
+    margin-top: 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > div#center2 > section {
+    background-color: #83E1AD;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 4px 4px 10px #00000038;
+}
+
+main > div#center2 > section > article.list > div > div::before {
+    content: '\2714';
+}
+main > div#center2 > section > article.list {
+    display: inline-block;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #1A5C38;
+}
+
+footer > p > a {
+    color: #F6F9F8;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: #83E1AD ;
+    text-decoration: underline;
+}
+
+footer > p {
+    color: #F6F9F8;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    padding: 5px;
+    font-weight: lighter;
+    text-align: center;
+}
+

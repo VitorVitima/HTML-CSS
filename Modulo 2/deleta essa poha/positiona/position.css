@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'logo' ;
+    src: url(Midorima-PersonalUse-Regular.ttf) format('truetype');
+}
+
+body {
+    background-color: #A6261B;
+    height: auto;
+    margin: 0px;
+}
+
+div#toper {
+    display: block;
+    position: relative;
+    background-color: #0000008e;
+    height: 80px;
+    margin-bottom: 20px;
+    
+}
+
+nav {
+    position: absolute;
+    display: inline-block;
+    width: 380px;
+    margin-left:655px;
+    margin-top: 40px;    
+
+}
+
+nav > a {
+    background-color: #FFEAEA;
+    color: black;
+
+    text-decoration: none;
+    display: inline-block;
+
+    border: 3px solid black;
+    padding: 5px;
+
+    position: relative;
+
+}
+
+div#toper > div#logo {
+    font-family: 'logo';
+    font-size: 4em;
+    font-style: normal;
+    color: whitesmoke;
+    margin-left: 100px ;
+    width: 180px;
+}
+
+
+div#toper > img {
+    position: absolute;
+    width: 105px;
+    left: 4px;
+    
+}
+
+div#center {
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 15px;
+    box-shadow: 10px 10px 1px #75261e;
+}
+
+img {
+    width: 510px;
+    position: relative;
+    top: 5px;
+}
+
+.backgroundimg {
+    margin: auto;
+    width: 517px;
+    background-color: #A6261B;
+    padding: 1px;
+    padding-bottom: 5px ;
+}
+
+.backgroundimg2 > img {
+    border: 5px solid #A6261B ;
+}
+
+.elements {
+    background-color: #ffbdbde1;
+    margin: 0px ;
+    margin-bottom: 0px;
+}
+

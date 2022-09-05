@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'dick' ;
+    src: url('fonts/Penis Typography Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'love';
+    src: url('fonts/Mf Love Song.ttf') format('truetype');
+}
+
+body {
+    background-image: url(https://static.todamateria.com.br/upload/es/tr/estruturapenis.jpg?auto_optimize=low);
+}
+    div {   
+        background-color: white;
+        margin: auto;
+        width: 800px;
+        font-family: 'dick';
+        font-size: 4em;
+    }
+
+.my {
+    background-color: white;
+    margin: auto;
+    width: 270px;
+    font-family: 'dick';
+    font-size: 5em;
+}
+
+.love {
+    background-color: white;
+    margin: auto;
+    width: 450px;
+    font-family: 'love';
+    font-size: 5em;
+
+}

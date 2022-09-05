@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+div#square {
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+    border: 10px solid black;
+
+    position: relative;
+
+    display: block;
+}
+
+div#box {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    right: 200px;
+
+    box-shadow: 5px 5px 3px #00000077;
+
+}
+div#box2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+    position: relative;    
+    margin: 200px auto 200px auto ;
+
+    box-shadow: 10px 10px 1px #00000041;
+}
+div#box3 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+
+    bottom: 0px;
+    left: 200px;
+
+    box-shadow: 7px -7px 1px #00000041;
+}

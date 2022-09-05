@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-color: #be8155;
+    margin: 0px;
+}
+
+header {
+    background-color: gray;
+    text-align: center;
+}
+
+header > h1 {
+    margin-top: 0px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    border: solid 2px black;
+
+    max-width: 900px;
+    min-width: 280px;
+}
+
+main > p > img {
+    width: 100%;
+    height: auto;
+}

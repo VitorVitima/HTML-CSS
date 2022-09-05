@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body {
+    font-family: arial, sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+ul > li >.youtuber::after {
+    content: ' ▶️';
+}
+
+ul > li >.rap::before {
+    content: '\01F3A4';
+}

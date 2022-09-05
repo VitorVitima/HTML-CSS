@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-color: #FFCCEE;
+}
+
+h1 {
+    background-color: #FF80D5;
+    color: black;
+    text-align: center;
+}
+
+h2#legal {
+    background-color: #CC66AA;
+    color: white;
+    text-align: center;
+}
+
+h2#facil {
+    background-color: #CC66AA;
+    color: #56FF40;
+    text-align: right;
+}
+
+p {
+    color: #80406A;
+}

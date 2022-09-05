@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(45deg, #9670C4, #A46ABA , #776BAD);
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #B3A400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

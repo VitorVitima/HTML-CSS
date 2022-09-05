@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(10, 100, 100);
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/29/5c/img-worlds-of-adventure.jpg?w=1200&h=-1&s=1);
+    
+}
+h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: chartreuse;
+}
+
+h2 {
+    color: darkred;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: black;
+}

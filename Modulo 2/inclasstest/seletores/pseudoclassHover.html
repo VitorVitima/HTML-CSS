@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Tst</title>
+
+    <style>
+        div:hover {
+            color:#0000ff;
+        }
+        div > p  {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: #ff002b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover</h1>
+    <p>Passa o mouse sobre o texto abaixo</p>
+    <div>
+        AQUI!!!
+            <p>Texto escondido</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-color: #87b2b4;
+}
+
+h1, h2{
+    text-align: center;
+    font: normal bold 3em times;
+    
+}
+
+p {
+    text-align: justify ;
+    text-indent: 1em;
+    font: normal lighter 1em arial, sans-serif ;
+}

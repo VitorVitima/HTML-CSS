@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'little' ;
+    src: url('fonts/LittleBoy.otf') format('opentype');
+}
+
+
+.back {
+    background-color: #EBB25B;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+
+#img {
+    background-color: none;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 32em;
+    left: 08em;
+}
+
+#txt {
+    background-color: none;
+    width: 20px;
+    height: auto;
+    position: relative;
+    bottom: 50em;
+    left: 33em;
+}
+
+h1 {
+    font-family: 'little';
+    font-size: 7em;
+}
+
+#h12 {
+    position: relative;
+    left: 27px;
+    bottom: 60px;   
+}
+
+h2 {
+    font-family: 'little';
+    font-size: 3em ;
+}
+
+#h2 {
+    position: relative;
+    bottom: 010.3em;
+
+}
+
+#h22 {
+    position: relative;
+    bottom: 5em ;
+    right: 80px;
+    width: 500px;
+}

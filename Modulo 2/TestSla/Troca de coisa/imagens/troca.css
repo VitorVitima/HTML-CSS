@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ff004086;
+}
+
+.center {
+    background-color: #ff9100be;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.center2 {
+    margin: auto;
+    width: 308px;
+    height: auto;
+}
+
+.center > .center2 > h1 {
+    font: normal 3em arial, sans-serif;
+    text-align: center;
+}
+
+.center > .center2 > #im1 {
+    background-image: url(Latters/A.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.center > .center2 > #im1:hover {
+    background-image: url(Latters/b.png);
+}
+
+.center > .center2 > #im1:active {
+    background-image: url(Latters/C.png);
+}
+
+.center > .center2 > #nu1 {
+    background-image: url(Number/1.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.center > .center2 > #nu1:hover {
+    background-image: url(Number/2.png);
+}
+
+.center > .center2 > #nu1:active {
+    background-image: url(Number/3.png);
+}
+
+.center > .center2 > #sla {
+    background-image: url(sla/circle.png);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.center > .center2 > #sla:hover {
+    background-image: url(sla/square.png);
+}
+
+.center > .center2 > #sla:active {
+    background-image: url(sla/pool.png);
+}

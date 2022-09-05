@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F2B999;
+}
+
+h1 {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+div#back {
+    background-color: white;
+    margin: auto;
+    box-shadow: 10px 10px #cc9d82;
+    padding: 10px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+div#id1 > a > img {
+    display: none;
+}
+
+div#id1 {
+    background-color: #D9597B;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+div#id1:hover > a > img {
+    display: block;
+    border-radius: 10px;
+}

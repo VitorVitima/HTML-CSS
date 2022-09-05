@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(90deg, #D9B4DE, #ED9AF8, #A78AAB);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #dfe073;
+    text-shadow: 1px 1px 2px #000000c2;
+}
+
+.flor {
+    height: 40px;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+.seta {
+    position: relative;
+    left: 44%;
+    
+
+}
+
+div {
+    background-color: #906296;
+    width: auto;
+    height: 45px;
+}
+
+
+main {
+    background-color: aliceblue;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #906296;
+    border-radius: 10px;
+}

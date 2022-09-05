@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios</title>
+</head>
+<body>
+    <h1>Reproduzindo audios em HTML5</h1>
+    <h2>Musica aleatória</h2>
+    <audio src="campfire.mp3" controls loop>campfire</audio>
+    <h2>Major 60k</h2>
+    <audio src="Major.mp3" controls loop>Major 60k</audio>
+    <h2>Rodrigo Zin Sengoku</h2>
+    <audio src="Sengoku.mp3" controls loop>Rodigo Zin Sengoku</audio>
+
+    <hr>
+
+    <audio preload="none" controls autoplay loop>
+        <source src="Major.mp3" type="audio/mpeg">
+        <source src="Major.ogg" type="audio/ogg">
+        <source src="Major.wav" type="audio/wav">
+        <p>Seu navegador não suporta os áudios; <a href="Major.mp3" download="Major.mp3" target="_blank" rel="noopener noreferrer">download</a></p>
+    </audio>
+</body>
+</html> 
