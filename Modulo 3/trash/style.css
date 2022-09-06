@@ -11,6 +11,8 @@
     --color-font: white;
 
     --margin-bottom-hs: 20px;
+
+    --color-font-footer: #d4d4d4;
 }
 
 body {
@@ -29,19 +31,11 @@ header {
 }
 header > div > img {
     width: 180px;
+
+    margin: 10px;
 }
 header > div {
     width: 180px;
-}
-header > nav > div {
-    display: inline-block;
-    
-    width: 115px;
-
-    margin-left: 70px;
-    margin-top: -40px;
-    padding: 7px;
-
 }
 header > nav {
     display: inline-block;
@@ -50,10 +44,31 @@ header > nav {
     margin-left: 200px;
     margin-top: -44px;
 }
+header > nav > div {
+    display: inline-block;
 
-header > nav > div#dif {
+    margin-left: 70px;
+    margin-top: -40px;
+    padding: 10.9px;
 
-    width: 200px;
+    transition-duration: 0.4s;
+    transition-delay: 0.2s;
+}
+
+header > nav > div > a {
+    color: var(--color-font);
+
+    text-decoration: none;
+}
+header > nav > div:hover {
+    background-color: #d4d4d433;
+
+    border-radius: 10px;
+}
+header > nav > div:hover > a {
+    color: white;
+
+    text-decoration: none;
 }
 
 main > article {
@@ -92,10 +107,51 @@ main p {
 footer {
     background-color: var(--fundo-header);
 
-    margin: auto;
     height: 100px;
+
+    padding-top: 10px ;
+    padding-bottom: 10px;
+
+    box-shadow: 0px -2px 9px #00000080;
+}
+
+footer h1 {
+    text-align: center;
+
+    color: var(--color-font-footer);
+
+    margin-bottom: 10px;
+}
+
+footer > h1 > div {
+    display: inline-block;
+}
+
+footer > h1 > div.name:hover {
+    color: var(--color-font);
+}
+
+footer > div {
+    display: block;
+    margin: auto;
+    width: 248px;
 }
 
 footer img {
     width: 40px;
+}
+
+footer ul {
+    list-style: none;
+
+    margin: auto;
+
+    display: block;
+
+}
+
+footer li {
+    display: inline-block;
+    margin: 15px 15px 0px 15px;
+    width: 50px;
 }
