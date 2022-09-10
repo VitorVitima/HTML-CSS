@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+div#border {
+    border: 2px solid black;
+    width: 345px;
+    height: 677px ;
+
+    border-radius: 40px;
+
+    margin: auto;
+
+    padding: 20px;
+
+    outline: 8px solid black;
+}
+
+div#camera {
+    background-color: black;
+    width: 190px;
+    height: 30px;
+
+    margin: -22px auto auto auto;
+
+    border-radius: 0px 0px 15px 15px;
+}
