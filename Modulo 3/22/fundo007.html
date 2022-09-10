@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Position</title>
+    <style>
+        #conteiner {
+            background-color: purple;
+            height: 600px;
+            padding: 10px;
+
+            position: relative;
+        }
+        #conteudo {
+            background-color: #b3ff00;
+            width: 400px;
+            height: 100px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
