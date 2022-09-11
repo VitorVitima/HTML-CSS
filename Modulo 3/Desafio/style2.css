@@ -1,0 +1,10 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    background-color: black;
+    max-width: 3000px;
+    min-width: 800px;
+
+}

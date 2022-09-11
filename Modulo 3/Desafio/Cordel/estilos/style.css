@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --header-color-h1-p: white;
+}
+
+header {
+    background-color: black;
+    height: 17em;
+
+}
+
+header > h1, p, a {
+    color: var(--header-color-h1-p) ;
+
+    text-align: center;
+}
+header .home {
+    display: inline-block;
+    font-size: inherit;
+}
+header h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 5.7em;
+    font-weight: bold;
+
+    padding-top: 45px;
+}
+header p {
+    font-family: 'Arimo', sans-serif;
+    font-size: medium;
+}
+header a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    color: black;
+    font-family: 'Sriracha', cursive;
+    font-size: 47px;
+}
+section > article p {
+    max-width: 465px;
+    min-width: 200px;
+    text-align: left;
+    padding: 90px 0px 0px 40px;
+}
+section#paragrafo2 {
+    background: black  url('/Modulo 3/Desafio/Cordel/imagens/background001.jpg') top center  no-repeat fixed;
+    background-size: cover;
+}
+section#paragrafo2 > article {
+    padding: 60px 0px 60px 30px;
+}
+section#paragrafo2 > article > p {
+    background-color: #0000007c;
+    color: white;
+    padding: 10px;
+}
+section#paragrafo4 {
+    background: black url('/Modulo 3/Desafio/Cordel/imagens/background002.jpg') top center no-repeat fixed;
+    background-size: cover;
+}
+section#paragrafo4 > article {
+    padding: 60px 0px 60px 30px;
+}
+section#paragrafo4 > article > p {
+    background-color: #0000007c;
+    color: white;
+    padding: 10px;
+}
+footer {
+    background-color: black;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 200px;
+}
+footer > p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+}
+footer > p > a {
+    text-decoration: none;
+    font-weight: bold;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+}
