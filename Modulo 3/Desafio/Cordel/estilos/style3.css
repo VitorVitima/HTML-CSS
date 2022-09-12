@@ -52,6 +52,9 @@ section.imagem > p {
     background-color: #00000041;
     width: 400px;
 }
+section#img01 {
+    background-image: url('/Modulo 3/Desafio/Cordel/imagens/background001.jpg');
+}
 
 
 footer {
