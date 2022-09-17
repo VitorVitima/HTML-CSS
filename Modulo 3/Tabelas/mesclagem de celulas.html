@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border:1px solid black ;
+        }
+        thead {
+            background-color: gray;
+            color: white;
+        }
+        thead {
+            position: sticky;
+            top: -1px;
+        }
+        #chapeus > tr > td:nth-child(2n)::after {
+            content: ' \01F452';
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela dos membros dos bandos de One Piece</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Personagem</th>
+                <th>Nivel de força</th>
+            </tr>
+        </thead>
+        <tbody id="chapeus">
+            <tr >
+                <td>Luffy</td>
+                <td>Chapeu de palha</td>
+                <td rowspan="4" style="text-align:center;">06/10</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Zoro</td>
+                <td>Chapeu de palha</td>
+
+            </tr>
+            <tr>
+                <td>Chapeu de palha</td>
+
+            </tr>
+            <tr>
+                <td>Nami</td>
+                <td>Chapeu de palha</td>
+                
+            </tr>
+            <tr>
+                <td>Usopp</td>
+                <td>Chapeu de palha</td>
+                <td>06/10</td>
+            </tr>
+            <tr>
+                <td>Brook</td>
+                <td>Chapeu de palha</td>
+                <td>06/10</td>
+            </tr>
+            <tr>
+                <td>Chopper</td>
+                <td>Chapeu de palha</td>
+                <td>06/10</td>
+            </tr>
+            <tr>
+                <td>Robin</td>
+                <td>Chapeu de palha</td>
+                <td>06/10</td>
+            </tr>
+            <tr>
+                <td>Franky</td>
+                <td>Chapeu de palha</td>
+                <td>06/10</td>
+            </tr>
+            <tr id="piratas do ruivo">
+                <td>Shanks</td>
+                <td>Piratas do ruivo</td>
+                <td>10/10</td>
+            </tr>
+            <tr>
+                <td>Benn Beckman</td>
+                <td>Piratas do ruivo</td>
+                <td>07/10</td>
+            </tr>
+            <tr>
+                <td>Lucky Roux</td>
+                <td>Piratas do ruivo</td>
+                <td>07/10</td>
+            </tr>
+            <tr>
+                <td>Yasopp</td>
+                <td>Piratas do ruivo</td>
+                <td>07/10</td>
+            </tr>
+            <tr>
+                <td>Limejuice</td>
+                <td>Piratas do ruivo</td>
+                <td>07/10</td>
+            </tr>
+            <tr>
+                <td>Bonk Punch</td>
+                <td>Piratas do ruivo</td>
+                <td>06/10</td>
+            </tr>
+            <tr>
+                <td>Building Snake</td>
+                <td>Piratas do ruivo</td>
+                <td>06/10</td>
+            </tr>
+            <tr>
+                <td>Hongo</td>
+                <td>Piratas do ruivo</td>
+                <td>06/10</td>
+            </tr>
+            <tr>
+                <td>Howling Gab</td>
+                <td>Piratas do ruivo</td>
+                <td>06/10</td>
+            </tr>
+            <tr>
+                <td>Monster</td>
+                <td>Piratas do ruivo</td>
+                <td>06/10</td>
+            </tr>
+            <tr>
+                <td>Rockstar</td>
+                <td>Piratas do ruivo</td>
+                <td>05/10</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
