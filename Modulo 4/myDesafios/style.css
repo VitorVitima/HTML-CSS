@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    --body-color: #CCCCCC;
+    --header-color: white ;
+    --footer-color: #202020;
+    --main-color: white;
+
+    --size-head: 865px;
+    --size-cursos: 400px;
+    --size-cursos-h: 650px;
+
+    --padding-main: 20px;
+    --padding-main-p: 10px 0px 10px 0px;
+
+    --img-size: 390px ;
+
+    --h1-main: 'Quicksand', sans-serif ;
+    --p--main: 'Raleway', sans-serif;
+
+    --size-barra-w: 99%;
+    --color-barra: #e6e6e6;
+
+}
+body {
+    background-color: var(--body-color) ;
+}
+
+header {
+    background-color: var(--header-color) ;
+
+    height: 190px;
+
+}
+
+header img {
+    margin: 34px 24px ;
+}
+main {
+    padding: 30px;
+}
+main p {
+    font-family: var(--p--main);
+    line-height: 29.8px;
+}
+section#head {
+    background-color: var(--main-color) ;
+    padding: var(--padding-main);
+    width: var(--size-head);
+}
+section#head > h1 {
+    font-family: var(--h1-main);
+    font-weight: normal;
+}
+
+div.cursos {
+    background-color: var(--main-color);
+    width: var(--size-cursos);
+    height: var(--size-cursos-h);
+    display: inline-table;
+
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: var(--padding-main);
+}
+div.cursos > a {
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: var(--h1-main);   
+}
+div.cursos > a:hover {
+    text-decoration: underline;
+}
+div.cursos > p > span {
+    font-weight: bolder;
+    font-size: 20px;
+}
+div.cursos > p {
+    padding: var(--padding-main-p);
+}
+div.cursos > img {
+    width: var(--img-size);
+}
+div.barra {
+    background-color: var(--color-barra);
+    width: var(--size-barra-w);
+    height: 2px;
+    border-radius: 50px;
+    margin-top: 40px ;
+}
+main > section > article > div.cursos > a.continue > span {
+    font-size: 15px;
+    padding: 11px 17px;
+    background-color: #ee001c;
+    color: #ffffff;
+}
+main > section > article > div.cursos > a.continue:hover {
+    text-decoration: none;
+}
+main > section > article > div.cursos > a.continue:hover > span {
+    background-color: #D5001A;
+}
+div#botoes {
+    width: 800px;
+}
+div#botoes > a {
+    display: inline-table;
+    background-color: #ee001c;
+    margin-top: 20px;
+    padding: 10.6px 16px;
+
+    color: var(--main-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+div#botoes > a:hover {
+    background-color: #D5001A;
+}
+footer {
+    background-color: var(--footer-color);
+    height: 80px;
+}
+footer > p {
+    color: #8C8E90;
+    font-size: 21px;
+    padding: 25px 20px;
+    font-family: var(--p--main);
+}
