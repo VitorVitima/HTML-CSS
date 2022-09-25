@@ -17,14 +17,32 @@
             border: 1px solid black;
             border-radius: 5px;
         }
+        body {
+            width: 500px;
+        }
+        input {
+            display: inline-block;
+            margin-left: 10%;
+        }
+        input#sobrenome {
+            margin-left: 11px;
+        }
+        input#senha {
+            margin-left: 49px;
+        }
     </style>
 </head>
 <body>
     <h1>test com primeiro formulario</h1>
-    <form>
-        <p>Nome: <input type="month" name="nome" id="nome"> </p> <!-- input:text -->
-        <p>Sobrenome: <input type="file" name="nome" id="nome"> </p> <!-- input:text -->
-        <input type="submit" value="Submit">    <!-- input:submit -->
+    <form action="form.php" method="post" autocomplete="off" >
+
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"> </p> 
+        <p><label for="sobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="sobrenome"> </p>
+
+        <p><label for="senha">Senha:</label> <input type="password" name="Senha" id="senha"> </p>
+        <input type="submit" value="Enviar">
+        
     </form>
+
 </body>
 </html>
