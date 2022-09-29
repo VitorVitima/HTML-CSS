@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Test 004</title>
+</head>
+<body>
+    <main>
+        <h1>Test com formulário</h1>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <form action="forms.js" method="post">
+                <p>
+                    <label for="iemail">
+                        Coloque seu email aqui:
+                    </label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required value="yukkiegg@gmail.com">
+                </p>
+                <p>
+                    <label for="itel">Coloque aqui seu telefone: </label>
+                    <input type="tel" name="tel" id="itel" autocomplete="tel" required placeholder="(xx) xxxxx-xxxx">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetar">
+                </p>
+        </fieldset>
+
+        </form>
+    </main>
+</body>
+</html>
