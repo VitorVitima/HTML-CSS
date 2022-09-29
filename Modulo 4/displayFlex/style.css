@@ -1,0 +1,25 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main#flexbox {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div.flex {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+
+    padding-top: 40px;
+    padding-left: 40px;   
+}
+
