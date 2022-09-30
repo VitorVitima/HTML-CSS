@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #fffffff8;
+        }
+        body {
+            background-color: #7c7c00a8;
+        }
+        form > fieldset#animes {
+            background-image: url('https://observatoriodeseries.uol.com.br/wp-content/uploads/2021/05/confira-agora-os-25-melhores-animes-que-ja-foram-criados-1.jpg');
+            background-size: cover;
+            background-position: top center;
+            background-attachment: fixed;
+        }
+        form > fieldset#serie {
+            background-image: url('https://bibliotecasecretahome.files.wordpress.com/2022/06/40-series-de-epoca.png?w=1280');
+            background-position: top center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="forms.js">
+        <fieldset id="animes">
+            <legend>Animes</legend>
+
+            <input type="checkbox" name="poke" id="ipoke"><label for="ipoke">Pokemon</label> <br>
+            <input type="checkbox" name="hxh" id="ihxh"><label for="ihxh">Hunter x Hunter</label> <br>
+            <input type="checkbox" name="one" id="ione"><label for="ione">One Piece</label> <br>
+            <input type="checkbox" name="naruto" id="inaruto"><label for="inaruto">Naruto</label> <br>
+        </fieldset>
+
+        <fieldset id="serie">
+            <legend>Séries</legend>
+
+            <input type="checkbox" name="casa" id="icasa"><label for="icasa">La Casa de Papel</label> <br>
+            <input type="checkbox" name="dah" id="idah"><label for="idah">Dahmer</label> <br>
+            <input type="Checkbox" name="brea" id="ibrea"><label for="ibrea">Breaking Bad</label> <br>
+            <input type="checkbox" name="super" id="isuper"><label for="isuper">Supernatural</label> <br>
+        </fieldset>
+    </form>
+</body>
+</html>
