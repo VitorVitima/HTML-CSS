@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="forms.js" autocomplete="on" method="post">
+        <p>
+            <label for="iname">Nome: </label>
+            <input type="text" name="name" id="iname" minlength="2" maxlength="15" required  placeholder="Obrigatório">
+        </p>
+        <p>
+            <label for="isobre">Sobrenome</label>
+            <input type="text" name="sobre" id="isobre" minlength="2" maxlength="15" required placeholder="Obrigatório">
+        </p>
+        <p>
+            <label for="inive">Data de aniversário</label>
+            <input type="date" name="nive" id="inive" value="2022-10-01" required> <!-- AAAA-MM-DD -->
+        </p>
+        <p>
+            <label for="itel">Telefone: </label>
+            <input type="tel" name="tel" id="itel" placeholder="Opcional" min="9" max="13">
+        </p>
+        <p>
+            <label for="iidade">Idade: </label>
+            <input type="number" name="idade" id="iidade" required placeholder="Obrigatório" min="1">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+</body>
+</html>
