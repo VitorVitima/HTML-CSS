@@ -7,16 +7,50 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="forms.js">
-        <fieldset>
+    <form action="forms.js" method="post">
 
-            
+            <p>
+                <label for="iest">Estado: </label>
+                <select name="est" id="iest">
+
+                    <option value="" selected> --Escolha-- </option>
+                    <optgroup label="Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+
+                    <optgroup label=" Sul ">
+                        <option value="PR">Paraná</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                    </optgroup>
+
+                    <optgroup label="Centro Oeste">
+                        <option value="DF">Distrito Federeal</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="ilist">Profissão</label>
+                <input type="text" name="list" id="ilist" list="data">
+                <datalist id="data">
+                    <option>Administração</option>
+                    <option>Programador</option>
+                    <option>Cozinheiro</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="ibio">Biografia</label> <br>
+                <textarea name="bio" id="ibio" cols="30" rows="10"></textarea>
+            </p>
 
             <p>
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Limpar">
             </p>
-        </fieldset>
     </form>
 </body>
 </html>
