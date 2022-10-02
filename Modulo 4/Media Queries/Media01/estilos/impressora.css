@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* Style for impressora */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+header > menu {
+    display: none;
+}
+header > h1 {
+    text-align: center;
+}
