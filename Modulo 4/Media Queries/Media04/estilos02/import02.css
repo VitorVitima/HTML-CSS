@@ -1,0 +1,42 @@
+
+@media print {
+   main > img#phone {
+    display: none;
+   }
+   main > img#print {
+    display: block;
+   }
+   main {
+    border: 1px solid black;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+    main > img#phone {
+        display: none;
+    }
+    main > img#tablet {
+        display: block;
+    }
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    main {
+        background-color: #ebebebf5;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+    main > img#phone {
+        display: none;
+    }
+    main > img#pc {
+        display: block;
+    }
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    main {
+        background-color: #7c017cfa;
+    }
+}
