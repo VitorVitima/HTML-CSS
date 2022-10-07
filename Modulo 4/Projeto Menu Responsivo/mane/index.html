@@ -11,7 +11,7 @@
     <header>
         <h1>Menu Responsivo</h1>
         <nav>
-            <div id="menu">
+            <div id="menu" onclick="clickMenu()"> <!--clickMenu is JS-->
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
@@ -36,5 +36,14 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ex illo itaque, sint quis eos impedit dolorem rerum ratione ut similique sapiente nesciunt minus, culpa, blanditiis ad corporis deleniti quod. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, perspiciatis mollitia tempore modi alias laudantium itaque voluptas officia non. Magnam, nobis culpa. Dignissimos ipsa hic et sed magnam maiores dolor!</p>
         </article>
     </main>
+    <script>
+        function clickMenu () {
+            if (links.style.display == 'block') {
+                links.style.display = 'none'
+            } else {
+                links.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
