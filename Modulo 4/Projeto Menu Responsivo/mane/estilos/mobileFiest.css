@@ -7,22 +7,23 @@
 }
 
 :root {
-    --cor1: #F0F2EB;
-    --cor2: #8C8C88;
-    --cor3: #595856;
-    --cor4: #26221F;
-    --cor5: #0D0000;
+    --cor1: #BF0413;
+    --cor2: #F23054;
+    --cor3: #F23064;
+    --cor4: #333140;
+    --cor5: #F2F2F2;
 }
 
 body {
-    background-color: var(--cor2);
+    background-color: var(--cor5);
 }
 
 /* Cabeça do menu responsivo */
 
 header {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     height: 90px;
+    box-shadow: 0px 3px 6px #00000041;
 }
 
 header > h1 {
@@ -40,15 +41,19 @@ header >  nav > div#menu {
 }
 
 header > nav > div#menu > div.line {
-    background-color: var(--cor1);
+    background-color: var(--cor5);
     width: 25px;
     height: 4px;
     margin-bottom: 3px;
     border: 1px solid black;
 }
+header > nav > div#menu:hover > div.line {
+    background-color: var(--cor4);
+    animation-duration: .9s;
+}
 
 header > nav > div#links {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     display: none;
     position: absolute;
     top: 90px;
@@ -61,22 +66,22 @@ header > nav > div#links > div > a {
     display: flex;
     justify-content: center;
     padding: 10px;
-    border: 0.5px solid var(--cor5);
     margin-bottom: 2px;
 }
 header > nav > div#links > div > a:hover {
-    color: var(--cor1);
+    color: var(--cor4);
 }
 
 /* Conteúdo do site e Main */
 
 main {
     max-width: 700px;
-    margin: auto;
-    padding: 0px 1px;
+    margin: 10px auto;
+    padding: 0px 10px;
 }
 main > article {
-    background-color: var(--cor1);
+    background-color: var(--cor5);
     padding: 10px;
     border: 1.5px solid black;
+    border-radius: 3.5px;
 }
