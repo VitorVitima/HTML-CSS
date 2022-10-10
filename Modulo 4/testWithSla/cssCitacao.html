@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset > input[type=text] {
+            background-color: #9614c980;
+            border-radius: 10px;
+        }
+
+        fieldset > input[name=age] {
+            background-color: #c9471480;
+            border-radius: 30px;
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="info.js" method="post" autocomplete="off">
+            <fieldset>
+                <legend>Your Information</legend>
+                
+                <label for="iname">Name</label>
+                <input type="text" name="name" id="iname" required minlength="2" maxlength="30">
+
+                <br>
+                <label for="iage">Age</label>
+                <input type="number" name="age" id="iage" required min="1" max="2">
+                <br>
+                
+                <input type="checkbox" name="sex" id="isexM">
+                <label for="isexM">Man</label>
+
+                <input type="checkbox" name="sex" id="isexG">
+                <label for="isexG">Woman</label>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
